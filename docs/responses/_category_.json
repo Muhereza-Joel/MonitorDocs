@@ -1,0 +1,8 @@
+{
+    "label": "Responses",
+    "position": 5,
+    "link": {
+      "type": "generated-index",
+      "description": "In the M&E Monitor, Responses play a crucial role in tracking the progress of indicators over time. A response represents an update or record of the current state of an indicator at a specific point in time. It provides valuable insights into how an indicator is progressing towards its target and helps in monitoring changes, identifying trends, and making data-driven decisions. Responses are associated with specific indicators and are used to evaluate progress in relation to the baseline and target values set for the indicator. They are essential for measuring the impact of interventions, capturing learnings, and informing future actions. The Responses section of the M&E Monitor allows users to add, view, and manage responses for indicators, ensuring continuous tracking and assessment."
+    }
+  }

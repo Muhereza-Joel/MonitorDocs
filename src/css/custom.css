@@ -1,0 +1,125 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #05333e; /* Base color */
+  --ifm-color-primary-dark: #042c35; /* Darker */
+  --ifm-color-primary-darker: #03262e; /* Even Darker */
+  --ifm-color-primary-darkest: #021f26; /* Darkest */
+  --ifm-color-primary-light: #07404c; /* Lighter */
+  --ifm-color-primary-lighter: #084954; /* Even Lighter */
+  --ifm-color-primary-lightest: #0a5662; /* Lightest */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(5, 51, 62, 0.1);
+}
+
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #0a4d5d; /* A bit lighter for dark mode */
+  --ifm-color-primary-dark: #094350; /* Dark */
+  --ifm-color-primary-darker: #083b47; /* Darker */
+  --ifm-color-primary-darkest: #063038; /* Darkest */
+  --ifm-color-primary-light: #0b586c; /* Lighter */
+  --ifm-color-primary-lighter: #0e6076; /* Even Lighter */
+  --ifm-color-primary-lightest: #127286; /* Lightest */
+  --docusaurus-highlighted-code-line-bg: rgba(5, 51, 62, 0.3);
+}
+
+/* Global CSS overrides for link hover states */
+:root {
+  --ifm-link-hover-color: black; /* Black for light theme */
+}
+
+[data-theme='dark'] {
+  --ifm-link-hover-color: white; /* White for dark theme */
+}
+
+/* Apply hover color to all links */
+a:hover,
+a:focus {
+  color: var(--ifm-link-hover-color) !important;
+}
+
+/* Ensure the sidebar is fixed and covers the full height */
+.menu {
+  position: fixed; /* Fix the sidebar */
+  top: 0; /* Align to the top */
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+  width: 100%; /* Set a fixed width (you can adjust this) */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  padding-top: 80px !important;
+  background-color: #05333e; /* Your desired background color */
+}
+
+/* Adjust the main content area to accommodate the sidebar */
+.docMainWrapper {
+  margin-left: 240px; /* Adjust this to the width of your sidebar */
+}
+
+/* Adjust the sidebar link colors */
+.menu__link {
+  color: #ffffff; /* Link color */
+}
+
+.menu__link:hover {
+  color: #ffffff !important; /* Hover color */
+  background-color: #07404c; /* Optional background on hover */
+}
+
+/* Change the color of the active link */
+.menu__link--active {
+  color: #ffeb3b; /* Active link color (yellow or another color of your choice) */
+  font-weight: bold; /* Optionally make the active link bold */
+  background-color: #0a4d5d; /* Background color for the active link */
+  border-left: 4px solid #ffeb3b; /* Optional: Add a left border to highlight the active link */
+}
+
+
+
+@media (max-width: 768px) {
+  .menu {
+      width: 100%; /* Full width on mobile */
+      position: relative; /* Change position to relative on mobile */
+  }
+
+  .docMainWrapper {
+      margin-left: 0; /* Reset margin for mobile */
+  }
+}
+
+/* Custom styles for the footer */
+.footer {
+  padding: 8px 0; /* Adjust padding to reduce height */
+}
+
+.primary-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #135f8f; /* Adjust your background color */
+  color: white; /* Text color */
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.danger-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #d11212; /* Adjust your background color */
+  color: white; /* Text color */
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.toc-button:hover {
+  background-color: #07404c; /* Lighter color on hover */
+}
+

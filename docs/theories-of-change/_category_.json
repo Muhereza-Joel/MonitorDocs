@@ -1,0 +1,8 @@
+{
+  "label": "Theories of Change",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Theories of Change (ToCs) serve as a foundational framework within the M&E Monitor, outlining the logical connections between project activities, outputs, and desired outcomes. This section provides guidance on creating, editing, and managing ToCs, including how to map causal pathways, identify assumptions and risks, and maintain data integrity through soft deletion and restoration. Proper management of ToCs ensures that indicators remain aligned with the project's goals, enhancing the overall monitoring and evaluation process."
+  }
+}
