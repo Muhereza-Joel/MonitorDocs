@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://monitor.opendata-analytics.org',
+  url: 'https://monitor-docs.opendata-analytics.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -81,8 +81,8 @@ const config = {
           
           { to: '/docs/intro', label: 'User Manual', position: 'left' },
           {
-            href: 'https://github.com/Muhereza-Joel/datacitiesmonitor',
-            label: 'Project Source Code',
+            href: 'https://github.com/Muhereza-Joel/MonitorDocs',
+            label: 'Git Hub',
             position: 'right',
           },
         ],

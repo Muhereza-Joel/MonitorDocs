@@ -7,8 +7,6 @@ custom_edit_url: null
 
 The Dashboard is the central hub of the M&E Monitor, providing users with an at-a-glance view of important project metrics, notifications, and recent activities. This section helps you navigate and understand the key components of the Dashboard to make the most of your monitoring and evaluation efforts.
 
-![Monitor Dashboard](./img/dashboard.png)
-
 ## Key Features
 
 The Dashboard includes the following key features:
